@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.websystique.springmvc.model.Employee;
 import com.websystique.springmvc.service.EmployeeService;
 
+//CREATE TABLE EMPLOYEE (ID int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME VARCHAR(50), JOINING_DATE DATE, SALARY DECIMAL(8, 2), SSN VARCHAR(50));
 @Controller
 @RequestMapping("/")
 public class AppController {

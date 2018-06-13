@@ -22,7 +22,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Employee {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 
 	@Size(min=3, max=50)

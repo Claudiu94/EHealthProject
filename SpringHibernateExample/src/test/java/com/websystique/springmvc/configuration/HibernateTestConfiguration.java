@@ -51,7 +51,7 @@ public class HibernateTestConfiguration {
 	private Properties hibernateProperties() {
 		Properties properties = new Properties();
 		properties.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
-		properties.put("hibernate.hbm2ddl.auto", "create-drop");
+		properties.put("hibernate.hbm2ddl.auto", "create");
 		return properties;
 	}
 

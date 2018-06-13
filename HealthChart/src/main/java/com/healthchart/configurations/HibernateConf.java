@@ -25,7 +25,7 @@ public class HibernateConf {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.healthchart.model" });
+        sessionFactory.setPackagesToScan("com.healthchart.model");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }
