@@ -12,19 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="105">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,7 +25,7 @@
         </entry>
       </file>
       <file leaf-file-name="HibernateConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/HibernateConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/HibernateConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -42,20 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="345">
+              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/model/Patient.java">
+      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/model/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatientDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/service/EmployeeServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/EmployeeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
@@ -79,7 +79,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/EmployeeDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
@@ -88,9 +88,9 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/EmployeeDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="180">
               <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
               <folding>
                 <element signature="e#498#499#0" expanded="true" />
@@ -101,7 +101,7 @@
         </entry>
       </file>
       <file leaf-file-name="AbstractDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/AbstractDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/AbstractDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
@@ -137,6 +137,8 @@
     <replaceStrings>
       <replace>HealthChart</replace>
       <replace />
+      <replace>healthc</replace>
+      <replace>healthchart</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -156,10 +158,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allpatients.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/service/PatientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/service/PatientServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/dao/PatientDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/HibernateConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java" />
       </list>
     </option>
   </component>
@@ -181,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,52 +216,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringHibernateExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringHibernateExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringHibernateExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringHibernateExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringHibernateExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringHibernateExample" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +253,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,39 +344,20 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32879582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25013682" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2556103" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.258347" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32879582" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32924226" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -434,16 +372,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/model/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/PatientServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/EmployeeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDaoImpl.java" />
@@ -492,7 +420,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/healthchart/springmvc/configuration/HibernateTestConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/AbstractDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/AppInitializer.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,19 +479,84 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/PatientService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/EmployeeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/EmployeeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding>
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/service/PatientServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/HibernateConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/AppConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/HibernateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/controller/AppController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allemployees.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/configuration/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/dao/PatientDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/healthchart/springmvc/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
