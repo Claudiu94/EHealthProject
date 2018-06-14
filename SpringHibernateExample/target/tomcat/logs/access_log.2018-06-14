@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [14/Jun/2018:06:12:56 +0300] "GET /HealthChart HTTP/1.1" 302 - http-bio-8000-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Jun/2018:06:12:57 +0300] "GET /HealthChart/ HTTP/1.1" 200 1106 http-bio-8000-exec-5 1303
+0:0:0:0:0:0:0:1 - - [14/Jun/2018:06:13:00 +0300] "GET /HealthChart/new-patient HTTP/1.1" 200 994 http-bio-8000-exec-6 246
+0:0:0:0:0:0:0:1 - - [14/Jun/2018:06:13:02 +0300] "GET /HealthChart/patients HTTP/1.1" 200 1106 http-bio-8000-exec-7 64

@@ -2,6 +2,7 @@ package com.websystique.springmvc.dao;
 
 import javax.sql.DataSource;
 
+import com.websystique.springmvc.configuration.HibernateTestConfiguration;
 import org.dbunit.database.DatabaseDataSourceConnection;
 import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
@@ -10,8 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
 import org.testng.annotations.BeforeMethod;
-
-import com.websystique.springmvc.configuration.HibernateTestConfiguration;
 
 
 @ContextConfiguration(classes = { HibernateTestConfiguration.class })

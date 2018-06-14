@@ -5,6 +5,8 @@ import java.util.Locale;
 
 import javax.validation.Valid;
 
+import com.websystique.springmvc.model.Patient;
+import com.websystique.springmvc.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
@@ -25,6 +27,9 @@ public class AppController {
 
 	@Autowired
 	EmployeeService service;
+
+	@Autowired
+	PatientService patientService;
 	
 	@Autowired
 	MessageSource messageSource;
@@ -32,12 +37,20 @@ public class AppController {
 	/*
 	 * This method will list all existing employees.
 	 */
-	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/list" }, method = RequestMethod.GET)
 	public String listEmployees(ModelMap model) {
 
 		List<Employee> employees = service.findAllEmployees();
 		model.addAttribute("employees", employees);
 		return "allemployees";
+	}
+
+	@RequestMapping(value = { "/", "/patients" }, method = RequestMethod.GET)
+	public String listPatients(ModelMap model) {
+
+		List<Patient> patients = patientService.findAllPatients();
+		model.addAttribute("patients", patients);
+		return "allpatients";
 	}
 
 	/*
@@ -49,6 +62,17 @@ public class AppController {
 		model.addAttribute("employee", employee);
 		model.addAttribute("edit", false);
 		return "registration";
+	}
+
+	/*
+	 * This method will provide the medium to add a new employee.
+	 */
+	@RequestMapping(value = { "/new-patient" }, method = RequestMethod.GET)
+	public String newPatient(ModelMap model) {
+		Patient patient= new Patient();
+		model.addAttribute("patient", patient);
+		model.addAttribute("edit", false);
+		return "newpatient";
 	}
 
 	/*
@@ -80,6 +104,20 @@ public class AppController {
 		service.saveEmployee(employee);
 
 		model.addAttribute("success", "Employee " + employee.getName() + " registered successfully");
+		return "success";
+	}
+
+	@RequestMapping(value = { "/new-patient" }, method = RequestMethod.POST)
+	public String savePatient(@Valid Patient patient, BindingResult result,
+							   ModelMap model) {
+
+		if (result.hasErrors()) {
+			return "newpatient";
+		}
+
+		patientService.savePatient(patient);
+
+		model.addAttribute("success", "Patient " + patient.getFirstName() + " " + patient.getLastName() + " registered successfully");
 		return "success";
 	}
 
@@ -127,6 +165,13 @@ public class AppController {
 	public String deleteEmployee(@PathVariable String ssn) {
 		service.deleteEmployeeBySsn(ssn);
 		return "redirect:/list";
+	}
+
+
+	@RequestMapping(value = { "/delete-{id}-patient" }, method = RequestMethod.GET)
+	public String deletePatient(@PathVariable int id) {
+		patientService.deletePatientById(id);
+		return "redirect:/patients";
 	}
 
 }

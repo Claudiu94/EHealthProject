@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="TestSuite" time="0.136" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.264" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.171-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/cozafiu/Documents/EHealthProject/SpringHibernateExample"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/claudiu/Documents/EHealthProject/SpringHibernateExample"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,39 +14,34 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="jna.nosys" value="true"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/cozafiu/Documents/EHealthProject/SpringHibernateExample"/>
+    <property name="user.dir" value="/home/claudiu/Documents/EHealthProject/SpringHibernateExample"/>
     <property name="java.runtime.version" value="1.8.0_171-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/cozafiu/workspace/ControlPanel/cisotools/maven/current/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/home/cozafiu/workspace/ControlPanel/cisotools/maven/current/conf"/>
-    <property name="javax.net.ssl.trustStore" value="/home/cozafiu/workspace/ControlPanel/cisotools/cacerts"/>
+    <property name="java.library.path" value="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="4.13.0-45-generic"/>
-    <property name="library.jansi.path" value="/home/cozafiu/workspace/ControlPanel/cisotools/maven/current/lib/jansi-native"/>
-    <property name="user.home" value="/home/cozafiu"/>
+    <property name="user.home" value="/home/claudiu"/>
     <property name="user.timezone" value="Europe/Bucharest"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="cozafiu"/>
-    <property name="java.class.path" value="/home/cozafiu/workspace/ControlPanel/cisotools/maven/current/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="claudiu"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean tomcat7:run-war"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -56,7 +51,7 @@
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/home/cozafiu/workspace/ControlPanel/cisotools/maven/current"/>
+    <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -64,27 +59,27 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="deleteEmployee" time="0.007"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="editEmployee" time="0.011"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="listEmployees" time="0.003"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="newEmployee" time="0"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithSuccess" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithValidationError" time="0"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithValidationErrorNonUniqueSSN" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithSuccess" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithValidationError" time="0"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithValidationErrorNonUniqueSSN" time="0"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeByInvalidSsn" time="0.056"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeBySsn" time="0.003"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findAllEmployees" time="0.003"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findById" time="0.011"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findEmployeeBySsn" time="0.016"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="saveEmployee" time="0.021"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="deleteEmployeeBySsn" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findAllEmployees" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findById" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findEmployeeBySsn" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="isEmployeeSsnUnique" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="saveEmployee" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="updateEmployee" time="0.001"/>
+  <testcase name="deleteEmployeeByInvalidSsn" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.136"/>
+  <testcase name="deleteEmployeeBySsn" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.004"/>
+  <testcase name="findAllEmployees" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.003"/>
+  <testcase name="findById" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.02"/>
+  <testcase name="findEmployeeBySsn" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.014"/>
+  <testcase name="saveEmployee" classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" time="0.042"/>
+  <testcase name="deleteEmployeeBySsn" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0.013"/>
+  <testcase name="findAllEmployees" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0.001"/>
+  <testcase name="findById" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0"/>
+  <testcase name="findEmployeeBySsn" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0"/>
+  <testcase name="isEmployeeSsnUnique" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0"/>
+  <testcase name="saveEmployee" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0.001"/>
+  <testcase name="updateEmployee" classname="com.websystique.springmvc.service.EmployeeServiceImplTest" time="0.001"/>
+  <testcase name="deleteEmployee" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.001"/>
+  <testcase name="editEmployee" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.022"/>
+  <testcase name="listEmployees" classname="com.websystique.springmvc.controller.AppControllerTest" time="0"/>
+  <testcase name="newEmployee" classname="com.websystique.springmvc.controller.AppControllerTest" time="0"/>
+  <testcase name="saveEmployeeWithSuccess" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.001"/>
+  <testcase name="saveEmployeeWithValidationError" classname="com.websystique.springmvc.controller.AppControllerTest" time="0"/>
+  <testcase name="saveEmployeeWithValidationErrorNonUniqueSSN" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.002"/>
+  <testcase name="updateEmployeeWithSuccess" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.001"/>
+  <testcase name="updateEmployeeWithValidationError" classname="com.websystique.springmvc.controller.AppControllerTest" time="0"/>
+  <testcase name="updateEmployeeWithValidationErrorNonUniqueSSN" classname="com.websystique.springmvc.controller.AppControllerTest" time="0.002"/>
 </testsuite>
